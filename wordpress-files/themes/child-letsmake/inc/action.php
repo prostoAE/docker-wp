@@ -1,0 +1,4 @@
+<?php
+/***
+ * your action ajax
+ */

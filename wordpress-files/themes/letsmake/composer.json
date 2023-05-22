@@ -1,0 +1,14 @@
+{
+    "name": "1/letsmake-theme.loc",
+    "autoload": {
+        "psr-4": {
+            "1\\LetsmakeThemeLoc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergui"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,17 @@
+@import 'var';
+
+@for $i from 1 to 101 {
+  .order-#{$i} {
+    order: $i !important;
+  }
+}
+
+@each $size in map-keys($adaptive-breakpoints) {
+  @media (min-width: map_get($adaptive-breakpoints, $size)) {
+    @for $i from 1 to 101 {
+      .order-#{$size}-#{$i} {
+        order: $i !important;
+      }
+    }
+  }
+}

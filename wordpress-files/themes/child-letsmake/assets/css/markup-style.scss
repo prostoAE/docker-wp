@@ -1,0 +1,43 @@
+// @import 'var';  /** підключений в кожному файлі*/
+html{
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+    width: 100%;
+    font-size: 100%;
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    &:before, &:after{
+       box-sizing: inherit;
+    }
+ }
+
+ button, input, textarea, select{
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background: none;
+    text-decoration: none;
+    border-radius: 0px;
+    &:active, &:focus, &:hover{
+       outline: none;
+       box-shadow: none;
+       border: none;
+       background: none;
+       text-decoration: none;
+    }
+ }
+ 
+@import 'markup/container';
+@import 'markup/display';
+@import 'markup/grid';
+@import 'markup/flex';
+@import 'markup/normalize';
+@import 'markup/order';
+@import 'markup/position';
+@import 'markup/spacing';
+@import 'markup/text';
+@import 'markup/bg';

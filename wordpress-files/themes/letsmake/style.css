@@ -1,0 +1,279 @@
+/*!
+
+Theme Name: Lets make
+
+Theme URI: https://letsmake.site/
+
+Author: Sergii
+
+Author URI: https://letsmake.site
+
+Description: This theme is designed for custom products by web studio https://letsmake.site
+
+Version: 1.1.0
+
+Tested up to: 5.4
+
+Requires PHP: 5.6
+
+License: GNU General Public License v2 or later
+
+License URI: LICENSE
+
+Text Domain: letsmake
+
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+*/
+
+/* Galleries-primary
+
+--------------------------------------------- */
+
+body {
+
+	min-width: 320px;
+
+	color: var(--letsmake--body-color, #262626);
+
+	background-color: var(--letsmake--body-background-color, #ffffff);
+
+
+
+}
+
+
+
+.container,
+
+.entry-content,
+
+.entry-header {
+
+	max-width: var(--letsmake--content-width, 1200px);
+
+	margin: 0 auto;
+
+}
+
+
+
+.text-color--primery {
+
+	color: var(--letsmake--color-primery);
+
+}
+
+
+
+.bg-color--primery {
+
+	background-color: var(--letsmake--color-primery);
+
+}
+
+
+
+.text-color--secondary {
+
+	color: var(--letsmake--color-secondary);
+
+}
+
+
+
+.bg-color--secondary {
+
+	background-color: var(--letsmake--color-secondary);
+
+}
+
+
+
+.text-color--tertiary {
+
+	color: var(--letsmake--color-tertiary);
+
+}
+
+
+
+.bg-color--tertiary {
+
+	background-color: var(--letsmake--color-tertiary);
+
+}
+
+
+
+.text-color--fourth {
+
+	color: var(--letsmake--color-fourth);
+
+}
+
+
+
+.bg-color--fourth {
+
+	background-color: var(--letsmake--color-fourth);
+
+}
+
+
+
+.gallery {
+
+	margin-bottom: 1.5em;
+
+	display: grid;
+
+	grid-gap: 1.5em;
+
+}
+
+
+
+.gallery-item {
+
+	display: inline-block;
+
+	text-align: center;
+
+	width: 100%;
+
+}
+
+
+
+.gallery-columns-2 {
+
+	grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+
+.gallery-columns-3 {
+
+	grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+
+.gallery-columns-4 {
+
+	grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+
+.gallery-columns-5 {
+
+	grid-template-columns: repeat(5, 1fr);
+
+}
+
+
+
+.gallery-columns-6 {
+
+	grid-template-columns: repeat(6, 1fr);
+
+}
+
+
+
+.gallery-columns-7 {
+
+	grid-template-columns: repeat(7, 1fr);
+
+}
+
+
+
+.gallery-columns-8 {
+
+	grid-template-columns: repeat(8, 1fr);
+
+}
+
+
+
+.gallery-columns-9 {
+
+	grid-template-columns: repeat(9, 1fr);
+
+}
+
+
+
+.gallery-caption {
+
+	display: block;
+
+}
+
+
+
+
+
+/* Alignments
+
+--------------------------------------------- */
+
+.alignleft {
+
+
+
+	/*rtl:ignore*/
+
+	float: left;
+
+
+
+	/*rtl:ignore*/
+
+	margin-right: 1.5em;
+
+	margin-bottom: 1.5em;
+
+}
+
+
+
+.alignright {
+
+
+
+	/*rtl:ignore*/
+
+	float: right;
+
+
+
+	/*rtl:ignore*/
+
+	margin-left: 1.5em;
+
+	margin-bottom: 1.5em;
+
+}
+
+
+
+.aligncenter {
+
+	clear: both;
+
+	display: block;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	margin-bottom: 1.5em;
+
+}

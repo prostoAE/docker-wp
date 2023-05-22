@@ -1,0 +1,32 @@
+@import 'var';
+
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ .bg-contain{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
+
+@each $size in map-keys($adaptive-breakpoints) {
+    @media (min-width: map_get($adaptive-breakpoints, $size)) {
+    
+        
+        .bg-#{$size}-cover{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .bg-#{$size}-contain{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+    }    
+  }

@@ -1,0 +1,73 @@
+@import 'var';
+
+$align_items: (center, flex-start, flex-end);
+
+@each $align_item in $align_items {
+  .align-items-#{$align_item} {
+    align-items: #{$align_item} !important;
+  }
+}
+
+@each $size in map-keys($adaptive-breakpoints) {
+  @media (min-width: map_get($adaptive-breakpoints, $size)) {
+    @each $align_item in $align_items {
+      .align-items-#{$size}-#{$align_item} {
+        align-items: #{$align_item} !important;
+      }
+    }
+  }    
+}
+
+$justify_contents: (flex-start, center, flex-end, space-between, space-around);
+
+@each $justify_content in $justify_contents {
+  .justify-content-#{$justify_content} {
+    justify-content: #{$justify_content} !important;
+  }
+}
+
+@each $size in map-keys($adaptive-breakpoints) {
+  @media (min-width: map_get($adaptive-breakpoints, $size)) {
+    @each $justify_content in $justify_contents {
+      .justify-content-#{$size}-#{$justify_content} {
+        justify-content: #{$justify_content} !important;
+      }
+    }
+  }    
+}
+
+$flex_wraps: (nowrap, wrap, wrap-reverse);
+
+@each $flex_wrap in $flex_wraps {
+  .flex-#{$flex_wrap} {
+    flex-wrap: #{$flex_wrap} !important;
+  }
+}
+
+@each $size in map-keys($adaptive-breakpoints) {
+  @media (min-width: map_get($adaptive-breakpoints, $size)) {
+    @each $flex_wrap in $flex_wraps {
+      .flex-#{$size}-#{$flex_wrap} {
+        flex-wrap: #{$flex_wrap} !important;
+      }
+    }
+  }    
+}
+
+$flex_directions: (column, column-reverse, row, row-reverse);
+
+@each $flex_direction in $flex_directions {
+  .flex-#{$flex_direction} {
+    flex-direction: #{$flex_direction} !important;
+  }
+}
+
+@each $size in map-keys($adaptive-breakpoints) {
+  @media (min-width: map_get($adaptive-breakpoints, $size)) {
+    @each $flex_direction in $flex_directions {
+      .flex-#{$size}-#{$flex_direction} {
+        flex-direction: #{$flex_direction} !important;
+      }
+    }
+  }    
+}

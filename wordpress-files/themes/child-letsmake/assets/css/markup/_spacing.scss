@@ -1,0 +1,82 @@
+@import 'var';
+
+// $spaceamounts: (
+//   0: 0rem,
+//   1: .25rem,
+//   2: .5rem,
+//   3: 1rem,
+//   4: 1.5rem,
+//   5: 2rem,
+//   6: 3rem
+// );
+$sides: (top, bottom, left, right);
+
+@each $count, $space in $spaceamounts {
+  @each $side in $sides {
+    .m#{str-slice($side, 0, 1)}-#{$count} {
+      margin-#{$side}: #{$space} !important;
+    }  
+    .p#{str-slice($side, 0, 1)}-#{$count} {
+      padding-#{$side}: #{$space} !important;
+    }
+  }
+  .my-#{$count} {
+    margin-top: #{$space} !important;
+    margin-bottom: #{$space} !important;
+  }
+  .py-#{$count} {
+    padding-top: #{$space} !important;
+    padding-bottom: #{$space} !important;
+  }
+  .mx-#{$count} {
+    margin-left: #{$space} !important;
+    margin-right: #{$space} !important;
+  }
+  .px-#{$count} {
+    padding-left: #{$space} !important;
+    padding-right: #{$space} !important;
+  }
+  .m-#{$count} {
+    margin: #{$space} !important;
+  }
+  .p-#{$count} {
+    padding: #{$space} !important;
+  }
+}
+
+@each $size in map-keys($adaptive-breakpoints) {
+  @media (min-width: map_get($adaptive-breakpoints, $size)) {
+    @each $count, $space in $spaceamounts {
+      @each $side in $sides {
+        .m#{str-slice($side, 0, 1)}-#{$size}-#{$count} {
+          margin-#{$side}: #{$space} !important;
+        }  
+        .p#{str-slice($side, 0, 1)}-#{$size}-#{$count} {
+          padding-#{$side}: #{$space} !important;
+        }
+        .my-#{$size}-#{$count} {
+          margin-top: #{$space} !important;
+          margin-bottom: #{$space} !important;
+        }
+        .py-#{$size}-#{$count} {
+          padding-top: #{$space} !important;
+          padding-bottom: #{$space} !important;
+        }
+        .mx-#{$size}-#{$count} {
+          margin-left: #{$space} !important;
+          margin-right: #{$space} !important;
+        }
+        .px-#{$size}-#{$count} {
+          padding-left: #{$space} !important;
+          padding-right: #{$space} !important;
+        }
+        .m-#{$size}-#{$count} {
+          margin: #{$space} !important;
+        }
+        .p-#{$size}-#{$count} {
+          padding: #{$space} !important;
+        }
+      }
+    }
+  }    
+}

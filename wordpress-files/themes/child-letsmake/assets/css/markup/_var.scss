@@ -1,0 +1,60 @@
+/** var root**/
+$bodyBackgroundPrimary: var(--mrkp-body-background-primary);
+$bodyBackgroundSecondary: var(--mrkp-body-background-secondary);
+$bodyBackgroundTertiary: var(--mrkp-body-background-tertiary);
+$bodyBackgroundNeutral: var(--mrkp-body-background-neutral);
+$bodyBackgroundAccent: var(--mrkp-body-background-accent);
+$bodyBackgroundPrimaryInverted: var(--mrkp-body-background-primary-inverted);
+$bodyBackgroundSecondaryInverted: var(--mrkp-body-background-secondary-inverted);
+$bodyBackgroundTertiaryInverted: var(--mrkp-body-background-tertiary-inverted);
+$bodyBackgroundNeutralInverted: var(--mrkp-body-background-neutral-inverted);
+$bodyBackgroundAccentInverted: var(--mrkp-body-background-accent-inverted);
+
+$bodyColorPrimary: var(--mrkp-body-color-primary);
+$bodyColorSecondary: var(--mrkp-body-color-secondary);
+$bodyColorTertiary: var(--mrkp-body-color-tertiary);
+$bodyColorNeutral: var(--mrkp-body-color-neutral);
+$bodyColorAccent: var(--mrkp-body-color-accent);
+$bodyColorPrimaryInverted: var(--mrkp-body-color-primary-inverted);
+$bodyColorSecondaryInverted: var(--mrkp-body-color-secondary-inverted);
+$bodyColorTertiaryInverted: var(--mrkp-body-color-tertiary-inverted);
+$bodyColorNeutralInverted: var(--mrkp-body-color-neutral-inverted);
+$bodyColorAccentInverted: var(--mrkp-body-color-accent-inverted);
+
+$bodyBorderColorPrimary: var(--mrkp-body-border-color-primary);
+$bodyBorderColorSecondary: var(--mrkp-body-border-color-secondary);
+$bodyBorderColorTertiary: var(--mrkp-body-border-color-tertiary);
+
+$bodyFontPrimary: var(--mrkp-body-font-family-primary);
+$bodyFontSecondary: var(--mrkp-body-font-family-secondary);
+$bodyFontTertiary: var(--mrkp-body-font-family-tertiary);
+
+$fontSize: var(--mrkp-font-size);
+$lineHeight: var(--mrkp-line-height);
+
+$containerMaxWidth: var(--mrkp-container-max-width, 1200px);
+$containerMaxWidthTablet: var(--mrkp-container-max-width-tablet);
+$containerPadding: var(--mrkp-container-padding, 1rem);
+
+$transition: var(--mrkp-transition);
+
+/** breakpoints **/ 
+$adaptive-breakpoints: (
+  'xs': 320px,
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1200px,
+  'xxl': 1400px,
+);
+/** spacing margin padding **/ 
+$spaceamounts: (
+  0: 0rem,
+  1: .25rem,
+  2: .5rem,
+  3: 1rem,
+  4: 1.5rem,
+  5: 2rem,
+  6: 3rem,
+  7: 6.75rem
+);

@@ -1,0 +1,19 @@
+@import 'var';
+
+$positions: (static, relative, absolute, fixed, sticky);
+
+@each $position in $positions {
+  .position-#{$position} {
+    position: #{$position} !important;
+  }
+}
+
+@each $size in map-keys($adaptive-breakpoints) {
+  @media (min-width: map_get($adaptive-breakpoints, $size)) {
+    @each $position in $positions {
+      .position-#{$size}-#{$position} {
+        position: #{$position} !important;
+      }
+    }
+  }    
+}

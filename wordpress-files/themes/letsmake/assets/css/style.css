@@ -1,0 +1,255 @@
+*,*:before,*:after{
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+	min-width: 320px;
+
+	color: var(--letsmake--body-color, #262626);
+
+	background-color: var(--letsmake--body-background-color, #ffffff);
+
+
+
+}
+
+-primary
+-primary
+.container,
+
+.entry-con-primary
+-primary
+.entry-header {
+
+	max-width: var(--letsmake--content-width, 1200px);
+
+    width:100%;
+
+	margin: 0 auto;
+
+}
+
+
+
+.text-color--primery {
+
+	color: var(--letsmake--color-primery);
+
+}
+
+
+
+.bg-color--primery {
+
+	background-color: var(--letsmake--color-primery);
+
+}
+
+
+
+.text-color--secondary {
+
+	color: var(--letsmake--color-secondary);
+
+}
+
+
+
+.bg-color--secondary {
+
+	background-color: var(--letsmake--color-secondary);
+
+}
+
+
+
+.text-color--tertiary {
+
+	color: var(--letsmake--color-tertiary);
+
+}
+
+
+
+.bg-color--tertiary {
+
+	background-color: var(--letsmake--color-tertiary);
+
+}
+
+
+
+.text-color--quaternary {
+
+	color: var(--letsmake--color-quaternary);
+
+}
+
+
+
+.bg-color--quaternary {
+
+	background-color: var(--letsmake--color-quaternary);
+
+}
+
+
+
+.gallery {
+
+	margin-bottom: 1.5em;
+
+	display: grid;
+
+	grid-gap: 1.5em;
+
+}
+
+
+
+.gallery-item {
+
+	display: inline-block;
+
+	text-align: center;
+
+	width: 100%;
+
+}
+
+
+
+.gallery-columns-2 {
+
+	grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+
+.gallery-columns-3 {
+
+	grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+
+.gallery-columns-4 {
+
+	grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+
+.gallery-columns-5 {
+
+	grid-template-columns: repeat(5, 1fr);
+
+}
+
+
+
+.gallery-columns-6 {
+
+	grid-template-columns: repeat(6, 1fr);
+
+}
+
+
+
+.gallery-columns-7 {
+
+	grid-template-columns: repeat(7, 1fr);
+
+}
+
+
+
+.gallery-columns-8 {
+
+	grid-template-columns: repeat(8, 1fr);
+
+}
+
+
+
+.gallery-columns-9 {
+
+	grid-template-columns: repeat(9, 1fr);
+
+}
+
+
+
+.gallery-caption {
+
+	display: block;
+
+}
+
+
+
+
+
+/* Alignments
+
+--------------------------------------------- */
+
+.alignleft {
+
+
+
+	/*rtl:ignore*/
+
+	float: left;
+
+
+
+	/*rtl:ignore*/
+
+	margin-right: 1.5em;
+
+	margin-bottom: 1.5em;
+
+}
+
+
+
+.alignright {
+
+
+
+	/*rtl:ignore*/
+
+	float: right;
+
+
+
+	/*rtl:ignore*/
+
+	margin-left: 1.5em;
+
+	margin-bottom: 1.5em;
+
+}
+
+
+
+.aligncenter {
+
+	clear: both;
+
+	display: block;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	margin-bottom: 1.5em;
+
+}

@@ -1,0 +1,19 @@
+@import 'var';
+
+$display: (flex, block, inline-flex, inline-block, grid, inline-grid, none);
+
+@each $each_display in $display {
+  .d-#{$each_display} {
+    display: #{$each_display} !important;
+  }
+}
+
+@each $size in map-keys($adaptive-breakpoints) {
+  @media (min-width: map_get($adaptive-breakpoints, $size)) {
+    @each $each_display in $display {
+      .d-#{$size}-#{$each_display} {
+        display: #{$each_display} !important;
+      }
+    }
+  }    
+}

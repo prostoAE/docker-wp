@@ -1,0 +1,132 @@
+CREATE TABLERWCfxPw_letsmake_theme / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 07:56:12
+CREATE TABLERWCfxPw_letsmake_theme / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 07:56:12
+CREATE TABLERWCfxPw_letsmake_theme / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 07:56:12
+CREATE TABLERWCfxPw_letsmake_theme / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 07:56:12
+CREATE TABLERWCfxPw_letsmake_theme / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 07:56:12
+CREATE TABLERWCfxPw_letsmake_theme / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 07:56:12
+CREATE TABLERWCfxPw_letsmake_theme / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 07:57:13
+CREATE TABLERWCfxPw_letsmake_theme / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 07:57:13
+CREATE TABLERWCfxPw_letsmake_theme / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 07:59:14
+CREATE TABLERWCfxPw_letsmake_theme / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 07:59:14
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 6 / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 08:18:31
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 6 / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 08:18:31
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 6 / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 08:18:32
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 6 / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 08:18:32
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 6 / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 08:18:32
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 6 / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 08:18:32
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 6 / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 08:18:32
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 6 / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 08:18:32
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 6 / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 08:19:32
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 6 / function create_table()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 31.01.2023 08:19:32
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 10:16:30
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 10:16:36
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 10:32:39
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 10:32:45
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 10:32:45
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 10:35:01
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 11:25:12
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 11:25:43
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 11:25:43
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 11:33:12
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 11:33:16
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 11:33:16
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 11:34:59
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 11:35:02
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM RWCfxPw_letsmake_theme SET `value` = {"color":"#3151f2"} WHERE `name` ...' at line 1 / function save_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 22:52:18
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM RWCfxPw_letsmake_theme SET `value` = {"color":"#d93030"} WHERE `name` ...' at line 1 / function save_option()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 04.02.2023 22:54:55
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:15:10
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:15:10
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:16:13
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:16:13
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:17:24
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:17:24
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:17:41
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:17:41
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''letsmake_settings_style'' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:23:53
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''letsmake_settings_style'' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:23:53
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'letsmake_settings_style' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:24:13
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'letsmake_settings_style' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:24:13
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:24:38
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:24:38
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:25:08
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:25:08
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:25:37
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:25:37
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:27:41
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:27:41
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:27:52
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:27:52
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:27:57
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:27:57
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:28:11
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:28:11
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:28:17
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''RWCfxPw_letsmake_theme' WHERE `name` IN ('letsmake_settings_style')' at line 1 / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:28:17
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:29:03
+Unknown column 'letsmake_settings_style' in 'where clause' / function get_options()
+( /home/letsmakeutest/public_html/wp-content/themes/letsmake/inc/letsmake/storage/letsmake-storage.php ) 05.02.2023 19:29:03

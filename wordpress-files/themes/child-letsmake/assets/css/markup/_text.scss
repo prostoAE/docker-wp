@@ -1,0 +1,36 @@
+@import 'var';
+
+$positions: (left, center, right);
+
+@each $position in $positions {
+  .text-#{$position} {
+    text-align: #{$position} !important;
+  }
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+ }
+ .text-transform-none{
+    text-transform: none;
+ }
+
+@each $size in map-keys($adaptive-breakpoints) {
+  @media (min-width: map_get($adaptive-breakpoints, $size)) {
+    @each $position in $positions {
+      .text-#{$size}-#{$position} {
+        text-align: #{$position} !important;
+      }
+    }
+    
+    .text-#{$size}-uppercase {
+        text-transform: uppercase;
+    }
+    .text-#{$size}-transform-none {
+        text-transform: none!important;
+    }
+    
+  }    
+}
+
+

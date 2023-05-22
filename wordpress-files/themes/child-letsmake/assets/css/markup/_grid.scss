@@ -1,0 +1,92 @@
+// @import 'var';
+$grids: (1,2,3,4,5,6,7,8,9,10,11,12);
+// $gutter: 1rem;
+// $gutter-column: 0.5rem;
+
+$grid_rows: null;
+$grid_cols: null;
+$grid_flow: (column, row, dense);
+
+.grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  // grid-gap: $gutter;
+}
+
+// .grid > * {
+//   padding-left: $gutter-column;
+//   padding-right: $gutter-column;
+// }
+
+@each $grid_flow_item in $grid_flow {
+  .grid-#{$grid_flow_item} {
+    grid-auto-flow: #{$grid_flow_item} !important;
+  }
+}
+
+@for $i from 1 to 13 {
+  $grid_rows: $grid_rows 1fr;
+  $grid_cols: $grid_cols 1fr;
+
+  .grid-rows-#{$i} {
+    grid-template-rows: $grid_rows;
+  }
+  .grid-cols-#{$i} {
+    grid-template-columns: $grid_cols;
+  }
+}
+$grid_rows: null;
+$grid_cols: null;
+
+@each $column_item in $grids {
+  .gc-#{$column_item} {
+    grid-column-start: #{$column_item};
+  }
+  .gr-#{$column_item} {
+    grid-row-start: #{$column_item};
+  }
+  .gw-#{$column_item} {
+    grid-column-end: span #{$column_item};
+  }
+  .gh-#{$column_item} {
+    grid-row-end: span #{$column_item};
+  }
+}
+
+@each $size in map-keys($adaptive-breakpoints) {
+  @media (min-width: map_get($adaptive-breakpoints, $size)) {
+    @each $grid_flow_item in $grid_flow {
+      .grid-#{$size}-#{$grid_flow_item} {
+        grid-auto-flow: #{$grid_flow_item} !important;
+      }
+    }
+    $grid_rows: null;
+    $grid_cols: null;
+    @for $i from 1 to 13 {
+      $grid_rows: $grid_rows 1fr;
+      $grid_cols: $grid_cols 1fr;
+    
+      .grid-rows-#{$size}-#{$i} {
+        grid-template-rows: $grid_rows;
+      }
+      .grid-cols-#{$size}-#{$i} {
+        grid-template-columns: $grid_cols;
+      }
+    }
+    @each $column_item in $grids {
+      .gc-#{$size}-#{$column_item} {
+        grid-column-start: #{$column_item};
+      }
+      .gr-#{$size}-#{$column_item} {
+        grid-row-start: #{$column_item};
+      }
+      .gw-#{$size}-#{$column_item} {
+        grid-column-end: span #{$column_item};
+      }
+      .gh-#{$size}-#{$column_item} {
+        grid-row-end: span #{$column_item};
+      }
+    }
+  }
+}
