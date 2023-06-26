@@ -18,16 +18,18 @@ services:
     restart: unless-stopped
     depends_on:
       - db
+      - redis
     environment:
       WORDPRESS_DB_HOST: ${WP_DB_HOST}
       WORDPRESS_DB_USER: ${DB_USER}
       WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
       WORDPRESS_DB_NAME: ${DB_NAME}
-      WORDPRESS_DEBUG: 1
+      WORDPRESS_DEBUG: 0
     volumes:
       - ${UPLOADS_INI}:/usr/local/etc/php/conf.d/uploads.ini
       - wordpress:/var/www/html
       - ./wordpress-files/plugins/${MAILHOG_PLUGIN}:/var/www/html/wp-content/plugins/${MAILHOG_PLUGIN}
+      - ./wordpress-files/plugins/product-import-export-for-woo:/var/www/html/wp-content/plugins/product-import-export-for-woo
       - ./wordpress-files/themes/letsmake:/var/www/html/wp-content/themes/letsmake
       - ./wordpress-files/themes/child-letsmake:/var/www/html/wp-content/themes/child-letsmake
   #      - ${WP_DIRECTORY}:/var/www/html # uncomment if you need local wp files
@@ -45,7 +47,7 @@ services:
       - ${DB_PORT}:3306
     volumes:
       - db:/var/lib/mysql
-  #      - ${DB_LOCAL_DATA}:/var/lib/mysql # uncomment if you need local database data
+#      - ${DB_LOCAL_DATA}:/var/lib/mysql # uncomment if you need local database data
 
   pma:
     image: phpmyadmin/phpmyadmin
@@ -61,6 +63,12 @@ services:
       - db
     links:
       - db:db
+
+  redis:
+    image: redis
+    ports:
+      - 6379:6379
+    restart: always
 
   mailhog:
     container_name: mailhog

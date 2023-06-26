@@ -11,7 +11,7 @@
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/assets/css/style.css', ['letsmake-style'] );
 
 
-    // для підключення своєї бібл-ки markup-style розкоментуй два нижніх рядки 
+    // для підключення своєї бібл-ки markup-style розкоментуй два нижніх рядки
 
     // wp_register_style('letsmake-markup-style', get_stylesheet_directory_uri() . '/assets/css/markup-style.css');
 
@@ -30,7 +30,7 @@ add_action( 'wp_enqueue_scripts', 'letsmake_child_theme_scripts' );
 /** admin style */
 // add_action( 'admin_enqueue_scripts', 'letsmake_child_admin_style');
 // function letsmake_child_admin_style(){
-//     wp_enqueue_style( 'kmnd-komanda-child-admin-style', get_stylesheet_directory_uri() . '/admin/child-admin-style.css', false ); 
+//     wp_enqueue_style( 'kmnd-komanda-child-admin-style', get_stylesheet_directory_uri() . '/admin/child-admin-style.css', false );
 // }
 
 /** after setup theme
@@ -85,3 +85,8 @@ function my_acf_op_init() {
         ));
     }
 }*/
+
+function debug($data,  $die = false): void {
+    echo '<pre>' . print_r($data, true) . '</pre>';
+    if ($die) die;
+}
